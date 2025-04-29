@@ -25,7 +25,7 @@ const IBANInput = () => {
                 placeholder='TRXX XXXX XXXX XXXX XXXX XXXX XX'
                 keyboardType='default'
                 style={[styles.input, error ? styles.inputError : null]}
-                maxLength={32} // TR + 24 character + 5 space
+                maxLength={32} // TR + 24 character + 6 space
                 autoCapitalize='characters'
             />
             {error ? <Text style={styles.error}>{error}</Text> : null}
